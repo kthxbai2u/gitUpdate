@@ -1,6 +1,8 @@
 gitUpdate
 =========
 
+Created By: kthxbai2u - <a href='http://PoolServ.info/' target='_blank'>http://PoolServ.info/</a>
+
 gitUpdate is a simple script to update your GitHub repository with one simple command!
 Simply create the project on github and edit the script for each project
 Run the script, it will only ask for GitHub user/pass once, and never again!
