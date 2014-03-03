@@ -1,0 +1,76 @@
+#!/bin/sh
+
+#
+#
+#	CONFIG VARIABLES
+#
+#
+
+PROJ_DIR=/github-projects/gitUpdate/
+
+GIT_NAME=gitUpdate
+
+GIT_ADDRESS=https://github.com/kthxbai2u/$GIT_NAME
+
+
+#
+#
+#	STOP EDITING. DO NOT EDIT ANY FURTHER!
+#
+#
+
+
+
+echo ""
+echo "*-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-*"
+echo "*-*                                                   *-*"
+echo "*-* GitHub Update Script - Developed along with PSMPS *-*"
+echo "*-*                                                   *-*"
+echo "*-*   Coded By: kthxbai2u of http://PoolServ.info/    *-*"
+echo "*-*                                                   *-*"
+echo "*-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-*"
+
+echo ""
+
+cd $PROJ_DIR
+
+echo "Pulling Changes..."
+echo ""
+git pull $GIT_NAME master
+echo ""
+
+echo "Adding Files..."
+echo ""
+git add -A .
+echo ""
+
+echo "Setting Commit Comment"
+echo ""
+git commit -am 'Auto Commit (using gitUpdate)'
+#git submodule foreach --recursive "git commit -m 'SubModule Auto Commit (using gitUpdate)'"
+echo ""
+
+#dont need to mark this in status
+git config credential.helper store
+
+echo "Pushing Changes..."
+echo ""
+git remote rm $GIT_NAME
+git remote add $GIT_NAME $GIT_ADDRESS.git
+echo ""
+git push PSMPS master
+echo ""
+
+echo ""
+echo "*-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-*"
+echo "*-*                                                   *-*"
+echo "*-* GitHub Update Script - Developed along with PSMPS *-*"
+echo "*-*                                                   *-*"
+echo "*-*   Coded By: kthxbai2u of http://PoolServ.info/    *-*"
+echo "*-*                                                   *-*"
+echo "*-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-*" 
+
+echo ""
+echo "GitHub Synchronize Complete. \o/"
+echo ""
+echo ""
