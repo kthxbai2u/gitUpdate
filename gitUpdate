@@ -47,7 +47,6 @@ echo ""
 echo "Setting Commit Comment"
 echo ""
 git commit -am 'Auto Commit (using gitUpdate)'
-#git submodule foreach --recursive "git commit -m 'SubModule Auto Commit (using gitUpdate)'"
 echo ""
 
 #dont need to mark this in status
@@ -58,7 +57,7 @@ echo ""
 git remote rm $GIT_NAME
 git remote add $GIT_NAME $GIT_ADDRESS.git
 echo ""
-git push PSMPS master
+git push $GIT_NAME master
 echo ""
 
 echo ""
