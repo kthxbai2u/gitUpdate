@@ -1,6 +1,10 @@
 gitUpdate
 =========
 
+gitUpdate is a simple script to update your GitHub repository with one simple command!
+Simply create the project on github and edit the script for each project
+Run the script, it will only ask for GitHub user/pass once, and never again!
+
 <b>USAGE:</b>
 
 1) Change to your Downloads dir<br />
