@@ -3,11 +3,11 @@ gitUpdate
 
 <b>USAGE:</b>
 
-1) Change to your Downloads dir
-      - "cd /home/myUser/Downloads/"
+1) Change to your Downloads dir<br />
+      - "cd /home/myUser/Downloads/"<br />
       
-2) Git the project from my repo
-      - "git clone https://github.com/kthxbai2u/gitUpdate.git gitUpdate/"
+2) Git the project from my repo<br />
+      - "git clone https://github.com/kthxbai2u/gitUpdate.git gitUpdate/"<br />
       
 3) Copy the gitUpdate script to your Project's Directory<br />
       - "cp gitUpdate/gitUpdate /home/myUser/Projects/XYZapp/"
