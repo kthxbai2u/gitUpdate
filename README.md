@@ -1,6 +1,6 @@
 gitUpdate
 =========
 
-<font size='20px'><b>Test</b></font>
+<font size='18'><b>Test</b></font>
 <br />
 poo
