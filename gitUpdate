@@ -50,6 +50,9 @@ git commit -am 'Auto Commit (using gitUpdate)'
 echo ""
 
 #dont need to mark this in status
+echo ""
+echo "Temporarily Storing/Retreiving GitHub Password"
+echo ""
 git config credential.helper store
 
 echo "Pushing Changes..."
