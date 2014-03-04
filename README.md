@@ -35,4 +35,4 @@ Run the script, it will only ask for GitHub user/pass once, and never again!
 
 8) Run gitUpdate every time you need to update the repository!<br />
 * "./gitUpdate"<br />
-* It should only ask for GitHub user/pass once, and never again.<br />
+* It will ask for your GitHub user/pass once, and then forget it after long time.<br />
