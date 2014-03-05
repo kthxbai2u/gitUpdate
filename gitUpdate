@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# ALWAYS CLEAR CLI
+clear
+
 #
 #
 #	CONFIG VARIABLES
@@ -76,3 +79,7 @@ echo ""
 echo "GitHub Synchronize Complete. \o/"
 echo ""
 echo ""
+
+
+# ALWAYS EXIT 0 FOR NO ERROR
+exit 0
